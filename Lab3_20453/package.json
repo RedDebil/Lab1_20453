@@ -1,0 +1,14 @@
+{
+  "name": "lab3_20453",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Filip Klos 20453",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "string-length": "^6.0.0"
+  }
+}
