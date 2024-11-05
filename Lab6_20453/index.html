@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Programowanie w JAVASCRIPT - template">
+<meta name="author" content="">
+<link rel="icon" href="img/favicon.ico">
+
+<title>Programowanie w JAVASCRIPT</title>
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet">
+<link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+<link href="css/navbar-fixed-top.css" rel="stylesheet">
+<script src="js/ie-emulation-modes-warning.js"></script>
+
+<!-- jQuery  -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="http://code.jquery.com/color/jquery.color-2.1.2.min.js"></script>
+<script src="js/jquery.easing.1.3.min.js"></script>
+<script src="js/jquery.easing.compatibility.js"></script>
+
+
+</head>
+
+<body>
+
+	<!-- navbar -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+					aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="img/logo512x128.png"
+					height="40" alt=""></a> <a class="navbar-brand logotext" href="#">Laboratorium</a>
+			</div>
+
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#main-page"
+						class="btn btn-primary" title="Strona główna"> <span
+							class="glyphicon glyphicon-home"></span>
+					</a></li>
+					<li><a href="#projekt1">Projekt 1</a></li>
+					<li><a href="#projekt2">Projekt 2</a></li>
+					<li><a href="#form" data-toggle="modal"
+						data-target="#ModalForm">Kontakt</a></li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-haspopup="true"
+						aria-expanded="false">Opcje <span class="caret"></span>
+					</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Akcja 1</a></li>
+							<li><a href="#">Akcja 2</a></li>
+							<li><a href="#">Akcja 3</a></li>
+							<li role="separator" class="divider"></li>
+							<li class="dropdown-header">Linki</li>
+							<li><a href="#">Link 1</a></li>
+							<li><a href="#">Link 2</a></li>
+						</ul></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+
+	</nav>
+
+	<!-- Main container -->
+	<section id="main-page">
+		<div class="container">
+
+			<div class="jumbotron">
+				<h1>Języki wysokiego poziomu <br> w aplikacjach internetowych</h1>
+				<div class="row">
+					<div class="col-md-2" align="left">
+						<p>nazwisko:</p>
+					</div>
+					<div class="col-md-4">
+						<p>Kłos</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2" align="left">
+						<p>imię:</p>
+					</div>
+					<div class="col-md-4">
+						<p>Filip</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2" align="left">
+						<p>grupa:</p>
+					</div>
+					<div class="col-md-4">
+						<p>1</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2" align="left">
+						<p>email:</p>
+					</div>
+					<div class="col-md-4">
+						<p>20453@student.ans-elblag.pl</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2" align="left">
+						<p>nr indeksu:</p>
+					</div>
+					<div class="col-md-4">
+						<p>20453</p>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+	<!-- /container -->
+
+	<section id="projekt1">
+		<div class="container">
+			<div class="jumbotron">
+				<h1>Projekt 1</h1>
+				<p>Miejsce na projekt laboratoryjny</p>
+				<p>Some random text here.</p>
+				<span class="pq">"Success usually comes to those who are too busy to be looking for it."</span>
+				<p>More random text here.</p>
+				<span class="pq">"Don’t be afraid to give up the good to go for the great."</span>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="projekt2">
+		<div class="container">
+			<div class="jumbotron">
+				<h1>Projekt 2</h1>
+				
+				<p>Miejsce na projekt laboratoryjny</p>
+
+			</div>
+		</div>
+	</section>
+
+	<section id="Projekt 3">
+		<div class="container">
+			<div class="jumbotron">
+        		<h2>Projekt 3</h2>
+				<div class="main">
+					<!-- Tutaj pojawią się dodatkowe akapity po najechaniu na odnośniki -->
+				</div>
+				<!-- Przykładowe odnośniki -->
+				<a href="#link1" class="link">Link 1</a>
+				<a href="#link2" class="link">Link 2</a>
+				<a href="#link3" class="link">Link 3</a>
+			</div>
+		</div>
+    </section>
+
+    <section id="Projekt 4">
+		<div class="container">
+			<div class="jumbotron">
+				<h2>Projekt 4</h2>
+				<form id="myForm">
+					<input type="button" id="clickMe" value="kliknij mnie"><p></p>
+					<!-- 10 ponumerowanych przycisków -->
+					<div id="buttonContainer">
+						<input type="button" class="styleButton" id="button1" value="Przycisk 1">
+						<input type="button" class="styleButton" id="button2" value="Przycisk 2">
+						<input type="button" class="styleButton" id="button3" value="Przycisk 3">
+						<input type="button" class="styleButton" id="button4" value="Przycisk 4">
+						<input type="button" class="styleButton" id="button5" value="Przycisk 5">
+						<input type="button" class="styleButton" id="button6" value="Przycisk 6">
+						<input type="button" class="styleButton" id="button7" value="Przycisk 7">
+						<input type="button" class="styleButton" id="button8" value="Przycisk 8">
+						<input type="button" class="styleButton" id="button9" value="Przycisk 9">
+						<input type="button" class="styleButton" id="button10" value="Przycisk 10">
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+	
+	<section id="Projekt 5">
+		<div class="container">
+			<div class="jumbotron">
+				<h2>Projekt 5: Tabela Elementów Laboratorium</h2>
+				<div id="Projekt5">
+					<table>
+						<tr>
+							<th>Imię</th>
+							<th>Cytat</th>
+							<th>Ocena</th>
+						</tr>
+						<tr>
+							<td class="name">Jan</td>
+							<td class="quote" data-author="Jan" data-description="motivational">"Zawsze warto próbować."</td>
+							<td class="grade" data-grade="5">5</td>
+						</tr>
+						<tr>
+							<td class="name">Anna</td>
+							<td class="quote" data-author="Anna" data-description="positive-ending">"Nic nie jest niemożliwe."</td>
+							<td class="grade" data-grade="4">4</td>
+						</tr>
+						<tr>
+							<td class="name">Tomasz</td>
+							<td class="quote" data-author="Tomasz" data-description="motive-inspire">"Marzenia są po to, by je spełniać."</td>
+							<td class="grade" data-grade="3">3</td>
+						</tr>
+						<tr class="ukryty">
+							<td class="name">Kasia</td>
+							<td class="quote" data-author="Kasia" data-description="motive-inspire">"Każdy dzień to nowa szansa."</td>
+							<td class="grade" data-grade="4">4</td>
+						</tr>
+					</table>
+			</div>
+		</div>
+    </section>
+
+    <section id="Projekt 6">
+		<div class="container">
+			<div class="jumbotron">
+				<h2>Projekt 6: Edytowanie Elementów</h2>
+				<button class="button" onclick="toggleColor1(this)">1. Zmień Kolor Imion (elementy potomne)</button>
+				<button class="button" onclick="toggleColor2(this)">2. Zmień Kolor Cytatów (dzieci wierszy)</button>
+				<button class="button" onclick="toggleColor3(this)">3. Zmień Kolor Ocen (sąsiadujące elementy)</button>
+				<button class="button" onclick="toggleColor4(this)">4. Zmień Kolor Cytatów z konkretnym atrybutem 'data-author=Anna'</button>
+				<button class="button" onclick="toggleColor5(this)">5. Zmień kolor cytatów w których atrybut data-description zaczyna się od "mot"</button>
+				<button class="button" onclick="toggleColor6(this)">6. Zmień kolor cytatów w których atrybut data-description kończy się na "ing"'</button>
+				<button class="button" onclick="toggleColor7(this)">7. Zmień kolor cytatów w których atrybut data-description zawiera "ive"</button>
+			</div>
+		</div>
+    </section>
+
+    <section id="Projekt 7">
+		<div class="container">
+			<div class="jumbotron">
+				<h2>Projekt 7: Edytowanie Elementów z Filtrami</h2>
+				<button class="button" onclick="editEvenRows(this)">1. Zmień Kolor Parzystych Wierszy</button>
+				<button class="button" onclick="editOddRows(this)">2. Zmień Kolor Nieparzystych Wierszy</button>
+				<button class="button" onclick="editSpecificClassRows(this)">3. Zmień Kolor Parzystych Wierszy (klasa 'quote')</button>
+				<button class="button" onclick="editFirstLastRow(this)">4. Zmień Kolor Pierwszego i Ostatniego Wiersza</button>
+				<button class="button" onclick="editNotMatching(this)">5. Zmień Kolor Wierszy Bez Ocen '3'</button>
+				<button class="button" onclick="editContainingSelector(this)">6. Zmień Kolor Wierszy Zawierających 'quote'</button>
+				<button class="button" onclick="editContainingText(this)">7. Zmień Kolor Wierszy Zawierających 'Jan'</button>
+				<button class="button" onclick="toggleHiddenRows(this)">8. Ukryj/Pokaż Wiersz 'Kasia'</button>
+			</div>
+		</div>
+    </section>
+
+	<footer>
+		<div class="container" style="margin-top: 5%">
+			<button type="button" class="btn btn-link" data-toggle="modal"
+				data-target="#myModal">Polityka prywatności</button>
+		</div>
+	</footer>
+
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" id="myModalLabel1">Polityka prywatności</h4>
+				</div>
+				<div class="modal-body">polityka prywatności...</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default btn-warning btn-sm"
+						data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="ModalForm" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" id="myModalLabel2">Kontakt</h4>
+				</div>
+				<div class="modal-body">
+					<section id="form" style="margin-top: 5%">
+						<form action="index.html#kontakt" method="post"
+							onsubmit="return checkForm();">
+							<fieldset>
+								<div class="row">
+									<div class="col-md-12">
+										<p class="hide" id="errorName">Podanie imienia jest
+											wymagane!</p>
+									</div>
+								</div>
+								<div class="row" id="success">
+									<div class="col-md-2" align="right">
+										<label class="control-label" for="contactName">Imię</label>
+									</div>
+									<div class="col-md-4">
+										<input type="text" class="form-control " id="contactName"
+											aria-describedby="inputSuccess5Status" onblur="checkName()" />
+										<span class="hide" aria-hidden="true" id="true"></span> <span
+											id="inputSuccess5Status" class="sr-only">(success)</span>
+									</div>
+								</div>
+								<br>
+								<div class="row">
+									<div class="col-md-12">
+										<p class="hide" id="errorLastName">Podanie nazwiska jest
+											wymagane!</p>
+									</div>
+								</div>
+								<div class="row" id="success2">
+									<div class="col-md-2" align="right">
+										<label class="control-label" for="contactLastName">Nazwisko</label>
+									</div>
+									<div class="col-md-4">
+										<input type="text" class="form-control " id="contactLastName"
+											aria-describedby="inputSuccess5Status"
+											onblur="checkLastName()" /> <span class="hide"
+											aria-hidden="true" id="true2"></span> <span
+											id="inputSuccess5Status2" class="sr-only">(success)</span>
+									</div>
+								</div>
+								<br>
+								<div class="row">
+									<div class="col-md-12">
+										<p class="hide" id="errorEmail">Podanie emaila jest
+											wymagane!</p>
+										<p class="hide" id="errorEmail2">Błędny email!</p>
+									</div>
+								</div>
+								<div class="row" id="success3">
+									<div class="col-md-2" align="right">
+										<label class="control-label" for="contactEmail">Email</label>
+									</div>
+									<div class="col-md-4">
+										<input type="text" class="form-control " id="contactEmail"
+											aria-describedby="inputSuccess5Status" onblur="checkEmail()" />
+										<span class="hide" aria-hidden="true" id="true3"></span> <span
+											id="inputSuccess5Status3" class="sr-only">(success)</span>
+									</div>
+								</div>
+								<br>
+								<div class="row">
+									<div class="col-md-2" align="right">
+										<label for="information">Informacje</label>
+									</div>
+									<div class="col-md-4">
+										<textarea name="Informacje" cols="30" rows="7" id="Info"
+											maxlength="250"></textarea>
+									</div>
+								</div>
+								<br>
+								<div class="row ">
+									<div class="col-md-2"></div>
+									<div class="col-md-3">
+										<input class="btn btn-primary" type="submit" value="Wyślij" />
+									</div>
+								</div>
+							</fieldset>
+						</form>
+					</section>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default btn-warning btn-sm"
+						data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Bootstrap core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/ie10-viewport-bug-workaround.js"></script>
+	<script src="js/forms.js"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+
+	<!-- Zad.1 -->
+	<script>
+		$(document).ready(function() {
+			$('span.pq').each(function() {
+				const quote = $(this).clone();
+				quote.removeClass('pq');
+				quote.addClass('pullquote');
+				$(this).before(quote);
+			});
+		});
+	</script>
+	
+	<!-- Zad.2 -->
+	<script>
+        $(document).ready(function() {
+			// 1. Wyświetlanie okienka dialogowego po dwukrotnym kliknięciu
+			$(document).dblclick(function() {
+				alert("Dwukrotnie kliknięto w dowolnym miejscu strony!");
+			});
+
+			// 2. Pojawienie się akapitu po najechaniu na odnośnik
+			$('.link').hover(function() {
+				const message = "<p class='message'>Wskazałeś odnośnik myszą!</p>";
+				$('.main').append(message);
+			});
+
+			// 3. Zmiana tekstu na przycisku po kliknięciu
+			$('#clickMe').click(function() {
+				$(this).val("zostałem kliknięty!");
+			});
+
+			// 4. 10 przycisków zmieniających style na stronie i dodających akapit
+			$('.styleButton').click(function() {
+				const buttonNumber = $(this).attr("id").replace("button", ""); // Numer przycisku
+				const targetElement = $("body"); // Element, który chcemy zmieniać
+				let changeDetails = ""; // Zmienna do przechowywania informacji o zmianach
+
+				// Przykładowe zmiany stylów i akapity
+				switch (buttonNumber) {
+					case '1':
+						targetElement.css({ "color": "red", "font-size": "20px" });
+						changeDetails = "Zmiana koloru tekstu na czerwony oraz wielkości czcionki na 20px. (TAG: body)";
+						break;
+					case '2':
+						targetElement.css({ "background-color": "yellow" });
+						changeDetails = "Zmiana koloru tła na żółty. (TAG: body)";
+						break;
+					case '3':
+						targetElement.css({ "font-family": "Arial, sans-serif" });
+						changeDetails = "Zmiana czcionki na Arial. (TAG: body)";
+						break;
+					case '4':
+						targetElement.css({ "border": "5px solid blue" });
+						changeDetails = "Dodanie niebieskiej ramki. (TAG: body)";
+						break;
+					case '5':
+						targetElement.css({ "text-decoration": "underline" });
+						changeDetails = "Dodanie podkreślenia do tekstu. (TAG: body)";
+						break;
+					case '6':
+						targetElement.css({ "opacity": "0.5" });
+						changeDetails = "Zmniejszenie przezroczystości do 50%. (TAG: body)";
+						break;
+					case '7':
+						targetElement.css({ "transform": "rotate(5deg)" });
+						changeDetails = "Obrócenie elementu o 5 stopni. (TAG: body)";
+						break;
+					case '8':
+						targetElement.css({ "letter-spacing": "2px" });
+						changeDetails = "Zwiększenie odstępu między literami. (TAG: body)";
+						break;
+					case '9':
+						targetElement.css({ "line-height": "2" });
+						changeDetails = "Zwiększenie wysokości linii. (TAG: body)";
+						break;
+					case '10':
+						targetElement.css({ "font-weight": "bold" });
+						changeDetails = "Ustawienie tekstu na pogrubiony. (TAG: body)";
+						break;
+					default:
+						break;
+				}
+
+					// Zmiana tekstu na przycisku
+					$(this).val(`Przycisk ${buttonNumber} kliknięty`);
+
+					// Dodanie akapitu z informacją o zmianie
+					const message = `<p> ${changeDetails} </p>`;
+					$('.main').append(message);
+				});
+		});
+    </script>
+
+	<!-- Zad.3 Projekt 6-->
+	<script>
+	function toggleButton(button) {
+        button.classList.toggle('active');
+    }
+
+    // Przycisk 1: Zmiana koloru imion (elementy potomne)
+    function toggleColor1(button) {
+        document.querySelectorAll('#Projekt5 .name').forEach(el => {
+            el.style.color = el.style.color === 'blue' ? '' : 'blue';
+        });
+        toggleButton(button);
+    }
+
+    // Przycisk 2: Zmiana koloru cytatów (dzieci wierszy)
+    function toggleColor2(button) {
+        document.querySelectorAll('#Projekt5 tr > .quote').forEach(el => {
+            el.style.color = el.style.color === 'green' ? '' : 'green';
+        });
+        toggleButton(button);
+    }
+
+    // Przycisk 3: Zmiana koloru ocen (sąsiadujące elementy)
+    function toggleColor3(button) {
+        document.querySelectorAll('#Projekt5 .grade').forEach(el => {
+            el.style.color = el.style.color === 'orange' ? '' : 'orange';
+        });
+        toggleButton(button);
+    }
+
+    // Przycisk 4: Zmiana koloru cytatów z konkretnym atrybutem 'data-author="Anna"'
+    function toggleColor4(button) {
+        document.querySelectorAll('#Projekt5 .quote[data-author="Anna"]').forEach(el => {
+            el.style.color = el.style.color === 'purple' ? '' : 'purple';
+        });
+        toggleButton(button);
+    }
+
+    // Przycisk 5: Zmiana koloru ocen, w których atrybut zaczyna się od "3"
+    function toggleColor5(button) {
+        document.querySelectorAll('#Projekt5 .quote[data-description^="mot"]').forEach(el => {
+            el.style.color = el.style.color === 'red' ? '' : 'red';
+        });
+        toggleButton(button);
+    }
+
+    // Przycisk 6: Zmiana koloru cytatów, w których atrybut data-description kończy się na "ending"
+    function toggleColor6(button) {
+        document.querySelectorAll('#Projekt5 .quote[data-description$="ending"]').forEach(el => {
+            el.style.color = el.style.color === 'brown' ? '' : 'brown';
+        });
+        toggleButton(button);
+    }
+
+    // Przycisk 7: Zmiana koloru cytatów zawierających ciąg "mot" w atrybucie data-description
+    function toggleColor7(button) {
+        document.querySelectorAll('#Projekt5 .quote[data-description*="ive"]').forEach(el => {
+            el.style.color = el.style.color === 'teal' ? '' : 'teal';
+        });
+        toggleButton(button);
+    }
+	</script>
+
+	<!--Zad.3 Projekt 7-->
+	<script>
+		// 1. Zmiana koloru parzystych wierszy
+		function editEvenRows(button) {
+        document.querySelectorAll('#Projekt5 tr:nth-child(even)').forEach(el => {
+            el.style.backgroundColor = el.style.backgroundColor === 'lightblue' ? '' : 'lightblue';
+        });
+        toggleButton(button);
+    }
+
+    // 2. Zmiana koloru nieparzystych wierszy
+    function editOddRows(button) {
+        document.querySelectorAll('#Projekt5 tr:nth-child(odd)').forEach(el => {
+            el.style.backgroundColor = el.style.backgroundColor === 'lightgreen' ? '' : 'lightgreen';
+        });
+        toggleButton(button);
+    }
+
+    // 3. Zmiana koloru parzystych wierszy należących do klasy 'quote'
+    function editSpecificClassRows(button) {
+        document.querySelectorAll('#Projekt5 tr:nth-child(even) .quote').forEach(el => {
+            el.style.color = el.style.color === 'orange' ? '' : 'orange';
+        });
+        toggleButton(button);
+    }
+
+    // 4. Zmiana koloru pierwszego i ostatniego wiersza
+    function editFirstLastRow(button) {
+        const rows = document.querySelectorAll('#Projekt5 tr');
+        rows[1].style.backgroundColor = rows[1].style.backgroundColor === 'yellow' ? '' : 'yellow'; // Pierwszy wiersz danych
+        rows[rows.length - 1].style.backgroundColor = rows[rows.length - 1].style.backgroundColor === 'yellow' ? '' : 'yellow'; // Ostatni wiersz
+        toggleButton(button);
+    }
+
+    // 5. Zmiana koloru wierszy bez ocen '3'
+    function editNotMatching(button) {
+        document.querySelectorAll('#Projekt5 tr').forEach(row => {
+            const grade = row.querySelector('.grade');
+            if (grade && grade.textContent.trim() !== '3') {
+                row.style.backgroundColor = row.style.backgroundColor === 'lightcoral' ? '' : 'lightcoral';
+            }
+        });
+        toggleButton(button);
+    }
+
+	// 6. Zmiana koloru wierszy zawierających inne elementy z selektorem
+    function editContainingSelector(button) {
+        document.querySelectorAll('#Projekt5 tr:has(.quote)').forEach(row => {
+            row.style.backgroundColor = row.style.backgroundColor === 'lightgray' ? '' : 'lightgray';
+        });
+        toggleButton(button);
+    }
+
+    // 7. Zmiana koloru wierszy zawierających 'Jan'
+    function editContainingText(button) {
+        document.querySelectorAll('#Projekt5 tr').forEach(row => {
+            if (row.textContent.includes('Jan')) {
+                row.style.backgroundColor = row.style.backgroundColor === 'lightyellow' ? '' : 'lightyellow';
+            }
+        });
+        toggleButton(button);
+    }
+
+    // 8. Pokazanie ukrytych wierszy
+	function toggleHiddenRows(button) {
+            const rowToToggle = document.querySelector('#Projekt5 tr.ukryty');
+            if (rowToToggle) {
+                // Sprawdź aktualny stan wyświetlania i przełącz
+                if (rowToToggle.style.display === 'none' || rowToToggle.style.display === '') {
+                    rowToToggle.style.display = 'table-row'; // Wyświetl wiersz
+                } else {
+                    rowToToggle.style.display = 'none'; // Ukryj wiersz
+                }
+            }
+        }
+	</script>
+</body>
+
+</html>
