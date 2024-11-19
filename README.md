@@ -7,3 +7,6 @@
 
 ### Do tego repozytorium dodałem pliki z labu 7, będzie pan mógł zobaczyć kod źródłowy stronki, przepraszam za wcześniejszy problem
 ### a tu jest link do stronki przygotowany na innym repozytorium https://RedDebil.github.io/lab7_20453
+
+### Taka sama sytuacja jest z labem 8
+### tu jest link do stronki przygotowany na innym repozytorium https://RedDebil.github.io/lab8_20453
