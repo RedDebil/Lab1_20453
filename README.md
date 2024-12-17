@@ -16,3 +16,5 @@
 ### Link do stronki zhostowanej na potrzeba Lab 10 https://reddebil.github.io/lab10_20453/
 
 ### Link do stronki zhostowanej na potrzebe Lab 11 https://lab11-20453.vercel.app/
+
+### Link do stronki zhostowanej na potrzebe Lab 12 https://lab12-20453.vercel.app/
